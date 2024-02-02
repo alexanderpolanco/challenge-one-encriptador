@@ -1,0 +1,82 @@
+<!--ESPESIFICAR TIPO DE FUENTE SEGUN EL DISEÑO ORIGINA-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encriptador de Texto</title>
+  <meta name="content" content="Challenge ONE - Alura + Oracle Next Education: Encriptador de Texto" />
+  <meta name="description" content="Ejemplo de un encriptador de texto con Javascript">
+  <!--REVISAR CUNADO SE TENGA EL DOMINIO DE LA PAGINA-->
+  <link rel="canonical" href="https://www.alexanderpolanco.com" />
+  <!-- AGREGA EL ICONO DE LA PAGINA -->
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <!-- CAMBIA EL COLOR DE LA BARRA DE NAVEGACION DE LOS DISPOSITIVOS MOVILES (EL content debe ser hexadecimal)-->
+  <meta name="theme-color" content="#0a3871" />
+  <!--ETIQUETAS PARA HABILITAR EL FORMATO DE CARD AL COMPARTIR ENLACE EN LAS REDES SOLCIALES -->
+  <meta property="og:title" content="Challenge ONE - Alura + Oracle Next Education: Encriptador de Texto" />
+  <meta property="og:url" content="https://www.alexanderpolanco.com" />
+  <meta property="og:image" content="https://www.alexanderpolanco.com/assets/card.wepp" />
+  <meta name="twitter:card" content="Challenge ONE - Alura + Oracle Next Education: Encriptador de Texto">
+  </meta>
+  <meta name="twitter:site" content="@nytimesbits" /> <!--cuenta de twitter-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/reset-box.css">
+  <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+  <main>
+    <section class="section-left">
+      <header>
+        <img src="/assets/logoalura.svg" alt="Logo Alura">
+      </header>
+      <textarea class="text-input" placeholder="Ingrese el texto aqui"></textarea>
+      <div class="container-buttons">
+        <div>
+          <img src="/assets/exclamation.svg" alt="Icono de explamación" style="padding-right: 5px;margin-left: 14px;">
+          <small>Solo letras minúsculas y sin acentos</small>
+        </div>
+        <div>
+          <button id="encriptar" class="button-primary bg-dark-blue-300 text-light-white-100">Encriptar</button>
+          <button id="desencriptar"
+            class="button-primary bg-gray-gray-100 text-dark-blue-300 button-border">Desencriptar</button>
+          <button id="borrar" class="button-primary bg-gray-gray-100 text-dark-blue-300 button-border">Borrar</button>
+        </div>
+      </div>
+    </section>
+    <section class="section-right">
+      <div class="container-full">
+        <p class="text-output"></p>
+        <button id="copiar" class="button-primary bg-gray-gray-100 text-dark-blue-300 button-border">Copiar</button>
+      </div>
+      <div class="container-empty">
+        <img src="/assets/persona.svg" alt="Imagen de persona con una lupa">
+        <p>Ningún mensaje fue encontrado</p>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      </div>
+    </section>
+
+  </main>
+  <dialog>
+    <header>
+      <h3>Reglas para usar el encriptador</h3>
+    </header>
+    <div>
+      <ul>
+        <li>Solo admite letras minúsculas</li>
+        <li>No admite acentos ni caracteres especiales</li>
+      </ul>
+      <img src="/assets/aceptacion.webp" alt="Icono de condiciones de uso">
+    </div>
+    <button id="closeModal" class="text-light-white-100">Aceptar</button>
+  </dialog>
+</body>
+
+</html>
+<script src="/js/app.js"></script>
