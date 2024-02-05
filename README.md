@@ -8,7 +8,7 @@
   <p align="center">
     Challenge ONE | Encriptador de texto
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Ver demo »</strong></a>
+    <a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><strong>Ver demo »</strong></a>
     <br />
   </p>
 </div>
@@ -54,7 +54,7 @@ Por ejemplo:
 Otra de las características del challenge es que la aplicación que fuese responsiva.
 
 <p align="center">
-<a href="https://example.com"><img href="" src="./assets/shots_movil_so.webp"/></a>
+<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><img href="" src="./assets/shots_movil_so.webp"/></a>
 </p>
 
 ### Algunos conceptos aplicados
@@ -86,4 +86,4 @@ Distribuido bajo licencia GPL. Ver `LICENSE.txt` para más información.
 [HTML5-url]: https://developer.mozilla.org/es/docs/Glossary/HTML5
 [CSS3]: https://img.shields.io/badge/css3-orange?logo=css3
 [CSS3-url]: https://developer.mozilla.org/es/docs/Web/CSS
-[product-screenshot-desktop]: /assets/shots_so.webp
+[product-screenshot-desktop]: ./assets/shots_so.webp
