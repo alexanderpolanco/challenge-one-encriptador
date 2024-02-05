@@ -17,7 +17,7 @@
 
 ## Acerca del proyecto
 
-[![Vista desktop][product-screenshot-desktop]](https://example.com)
+[![Vista desktop][product-screenshot-desktop]](https://alexanderpolanco.github.io/chanllage-one-encriptador/)
 
 Este enciptador de texto es una actividad recomendada de realizar por el programe G6 ONE. La idea es poner en práctica lo aprendido con este challenge.
 
