@@ -8,7 +8,7 @@
   <p align="center">
     Challenge ONE | Encriptador de texto
     <br />
-    <a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><strong>Ver demo »</strong></a>
+    <a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/" target="_blank"><strong>Ver demo »</strong></a>
     <br />
   </p>
 </div>
@@ -54,8 +54,8 @@ Por ejemplo:
 Otra de las características del challenge es que la aplicación que fuese responsiva.
 
 <p align="center">
-<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><img width="350px" height="492px" src="./assets/shots_movil_so.webp"/></a>
-<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><img width="300px" height="492px" src="./assets/demo-encriptador.gif"/></a>
+<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/" target="_blank"><img width="350px" height="492px" src="./assets/shots_movil_so.webp"/></a>
+<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/" target="_blank"><img width="300px" height="492px" src="./assets/demo-encriptador.gif"/></a>
 </p>
 
 ### Algunos conceptos aplicados
