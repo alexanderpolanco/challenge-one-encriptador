@@ -30,7 +30,7 @@ function showContent() {
 }
 
 function validationInput(paragraph) {
-  if (!/^[a-z\s]+$/.test(paragraph)) {
+  if (!/^[a-zñ\s]+$/.test(paragraph)) {
     dialog.showModal();
     return false;
   } else {
