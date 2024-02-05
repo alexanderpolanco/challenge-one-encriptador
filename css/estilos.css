@@ -223,7 +223,7 @@ header {
   display: block;
 }
 
-@media (width < 769px) {
+@media (width < 810px) {
   main {
     display: flex;
     flex-direction: column;
