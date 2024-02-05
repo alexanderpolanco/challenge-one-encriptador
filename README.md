@@ -54,7 +54,8 @@ Por ejemplo:
 Otra de las características del challenge es que la aplicación que fuese responsiva.
 
 <p align="center">
-<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><img href="" src="./assets/shots_movil_so.webp"/></a>
+<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><img width="350px" height="492px" src="./assets/shots_movil_so.webp"/></a>
+<a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/"><img width="300px" height="492px" src="./assets/demo-encriptador.gif"/></a>
 </p>
 
 ### Algunos conceptos aplicados
