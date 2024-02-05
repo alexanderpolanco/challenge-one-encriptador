@@ -100,7 +100,10 @@ btnDsencriptar.addEventListener("click", () => {
   }
 });
 
-btnBorrar.addEventListener("click", borrar);
+btnBorrar.addEventListener("click", () => {
+  borrar();
+  scrollToSection(textInput);
+});
 
 btnCopiar.addEventListener("click", () => {
   copyclipboard(textOutput.textContent);
